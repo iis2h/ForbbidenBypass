@@ -5,8 +5,7 @@ import urllib3
 import argparse
 from colorama import Fore
 
-parser = argparse.ArgumentParser(
-    description='Simple HTTP Headers Fuzzing Script to Bypass 403 & 401')
+parser = argparse.ArgumentParser(description='Simple HTTP Headers Fuzzing Script to Bypass 403 & 401')
 parser.add_argument('-u', '--url', metavar='', help='Targeted URL', required=True)
 args = parser.parse_args()
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)  # Disable Insecure Warning
