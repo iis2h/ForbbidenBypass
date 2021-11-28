@@ -19,6 +19,6 @@ for Header in Header_List:
     headers_try = {Header: "127.0.0.1"}  # Trying every Header in the List
     response = requests.get(args.url, headers=headers_try, verify=False)  # if you want a proxy just add (proxies=proxy)
     if response.ok:
-        print(Fore.GREEN + Header, '----', response.status_code)
+        print(Fore.GREEN + Header, '( Status Code : ', response.status_code, ')')
     else:
         print(Fore.RED + Header, '( Status Code : ', response.status_code, ')')
