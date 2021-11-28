@@ -1,5 +1,5 @@
 # ForbbidenBypass
-Simple HTTP Headers Fuzzing Script - CTF
+Simple HTTP Headers Fuzzing Script  
 Used in Capture The Flag Challenges
 
 ## Usage :
