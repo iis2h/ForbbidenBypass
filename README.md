@@ -1,5 +1,5 @@
 # ForbbidenBypass
-Simple HTTP Headers Fuzzing Script  
+Simple HTTP Headers Fuzzing Script to Bypass 403 & 401  
 Used in Capture The Flag Challenges
 
 ## Usage :
