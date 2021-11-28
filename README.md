@@ -4,4 +4,4 @@ Used in Capture The Flag Challenges
 
 ## Usage :
 `pip3 install -r requirements.txt`\
-`python3 hhf.py -u www.example.com`
+`python3 HHF.py -u www.example.com`
